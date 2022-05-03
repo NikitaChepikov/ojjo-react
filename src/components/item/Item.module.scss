@@ -1,0 +1,202 @@
+@import '../../assets/styles/style.scss';
+@import '../catalog/Catalog.module.scss';
+
+.cardItem {
+    background: #F9F9F9;
+}
+.cardNavigation {
+    padding: 60px 0 60px 0;
+    text-align: center;
+}
+.cardNavigation a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;
+    margin: 0 15px;
+}
+.cardNavigation a:last-child {
+    text-decoration: none;
+    cursor: context-menu;
+}
+.cardBlock {
+    display: flex;
+    justify-content: space-between;
+}
+.imagesBlock {
+    display: grid;
+    grid-template-areas:
+    "bigImage bigImage bigImage"
+    "smallImage1 smallImage2 smallImage3";
+    grid-gap: 30px;
+    margin-right: 30px;
+}
+.bigImage {
+    grid-area: bigImage;
+}
+.smallImage1 {
+    grid-area: smallImage1;
+}
+.smallImage2 {
+    grid-area: smallImage2;
+}
+.smallImage3 {
+    grid-area: smallImage3;
+}
+/* infoCardBlock */
+.infoCardBlock {
+    padding: 40px 30px;
+    border: 1px solid #D6D6D6;
+    position: relative;
+}
+.infoCardBlock::after {
+    content: " ";
+    width: 520px;
+    height: 570px;
+    border: 1px solid #D6D6D6;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    z-index: -1;
+}
+.infoCardBlock div {
+    display: flex;
+    margin-bottom: 30px;
+}
+.infoCardBlock div p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #979797;
+    margin-right: 15px;
+}
+.nameItem {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.discription {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;
+    margin-top: 30px;
+}
+.price {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 30px 0;
+}
+.buy {
+    width: 110px;
+    height: 41px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #333333;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.addCart {
+    width: 247px;
+    height: 41px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    background: #FFFFFF;
+    border: 1px solid #333333;
+    cursor: pointer;
+}
+/* fullDescription */
+.fullDescription {
+    background: #F9F9F9;
+}
+.fullDescriptionContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    padding: 120px 90px;
+}
+.fullDescriptionTextTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 140%;
+    color: #333333;
+}
+.fullDescriptionText {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333333;
+}
+.fullDescriptionButton {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+    border-bottom: 1px dashed #333333;
+    display: inline;
+    cursor: pointer;
+}
+/* recommendation */
+.recommendation {
+    background: #F9F9F9;
+}
+.recommendationText p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.recommendationText h3 {
+    font-family: "Noto", Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #333333;
+}

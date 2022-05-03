@@ -1,0 +1,282 @@
+@import '../../assets/styles/style.scss';
+
+.main {
+    background: url('../../assets/img/bgc.png') center no-repeat;
+}
+
+.titleMain {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 250px;
+}
+.main h1 {
+    padding-bottom: 50px;
+}
+.mainButton {
+    display: block;
+    width: 261px;
+    height: 51px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+.main hr {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.companyBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 30px 0;
+}
+.line {
+    background-color: #fff;
+    width: 1px;
+    height: 60px;
+}
+.events {
+    background: #F9F9F9;
+}
+.eventsContainer {
+    padding-bottom: 120px;
+}
+.textBlock p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+    padding: 100px 0 15px 0;
+}
+.textBlock h1 {
+    color: #000;
+    padding-bottom: 60px;
+}
+.titleEvents {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+.eventsButtons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.eventsButtons a {
+    text-decoration: none;
+    display: block;
+    width: 165px;
+    height: 61px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #F9F9F9;
+    border: 1px solid #D6D6D6;
+    position: relative;
+}
+.eventsButtons a::after {
+    content: " ";
+    display: block;
+    width: 165px;
+    height: 55px;
+    position: absolute;
+    background-color: #F9F9F9;
+    border: 1px solid #D6D6D6;
+    top: 10px;
+    left: 5px;
+    z-index: -1;
+}
+.eventsButtons a:nth-child(1){
+    background-color: #333333;
+    color: #fff;
+}
+.eventsCard {
+    width: 350px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.eventsCard p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.eventsCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+}
+.eventsCard:nth-child(1) {
+    background: url("../../assets/img/events1.png");
+}
+.eventsCard:nth-child(2) {
+    background: url("../../assets/img/events2.png");
+}
+.eventsCard:nth-child(3) {
+    background: url("../../assets/img/events3.png");
+}
+.eventsCard:nth-child(4) {
+    background: url("../../assets/img/events4.png");
+}
+.eventsCard:nth-child(5) {
+    background: url("../../assets/img/events5.png");
+}
+.eventsCard:nth-child(6) {
+    background: url("../../assets/img/events6.png");
+}
+/* salons */
+.salons {
+    background: url("../../assets/img/salonsBG.png");
+}
+.salonsContainer {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 100px;
+}
+.salonsContainer .firstText {
+    padding-top: 100px;
+}
+.salonsContainer .secondText {
+    padding-bottom: 60px;
+}
+.salonsContainer h1 {
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+.salonsContainer a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    width: 224px;
+    height: 51px;
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid #333333;
+    margin: 0 auto;
+}
+/* articles */
+.articles {
+    background: #F9F9F9;
+}
+.articlesContainer {
+    padding: 120px 0;
+    text-align: center;
+}
+.articlesContainer p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+}
+.articlesContainer h1 {
+    font-family: "Noto", Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #333333;
+    margin: 15px 0 60px 0;
+}
+.imageArticleBlocks {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.imageArticleBlock p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 65px 0 65px;
+    margin-bottom: 35px;
+}
+.articlesContainer a {
+    text-decoration: none;
+    display: block;
+    width: 255px;
+    height: 51px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #333333;
+    margin: 0 auto;
+}
+.imageArticleBlock {
+    width: 350px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.imageArticleBlock:nth-child(1) {
+    background: url("../../assets/img/articleImage1.png");
+}
+.imageArticleBlock:nth-child(2) {
+    background: url("../../assets/img/articleImage2.png");
+}
+.imageArticleBlock:nth-child(3) {
+    background: url("../../assets/img/articleImage3.png");
+}

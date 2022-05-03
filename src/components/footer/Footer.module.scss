@@ -1,0 +1,60 @@
+@import '../../assets/styles/style.scss';
+
+.footer {
+    background: #F9F9F9;
+}
+.footerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 80px 0 60px 0;
+}
+.footerContainer h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+}
+.footerContainer p,
+.footerContainer a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.footerContainer hr {
+    margin: 10px 0 30px 0;
+}
+.visa {
+    margin-right: 20px;
+}
+.iconBlock {
+    display: flex;
+}
+.telefoneBlock {
+    display: flex;
+}
+.iconBlock a {
+    font-size: 16px;
+    margin-right: 25px;
+}
+.copyrightBlock {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.telephone {
+    margin-left: 5px;
+}
+.email {
+    margin-left: 5px;
+}

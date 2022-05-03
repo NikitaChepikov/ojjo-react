@@ -1,0 +1,62 @@
+@import '../../assets/styles/style.scss';
+
+.header {
+    background: #333333;
+}
+
+.logo {
+    background: url("../../assets/img/logo.svg");
+    width: 216px;
+    height: 52px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 40px 0;
+
+    .links a {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .links a:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .inputSearch {
+        position: relative;
+    }
+
+    .search {
+        width: 100px;
+        background-color: transparent;
+        border: none;
+        color: #FFFFFF;
+    }
+
+    .inputSearch label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #FFFFFF;
+    }
+
+    .search:focus-visible ~ .label {
+        display: none;
+    }
+
+    .signupBlock {
+        display: flex;
+    }
+}
+.searchIcon {
+    margin-right: 10px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,121 @@
+@import '../../assets/styles/style.scss';
+
+.selectBlockContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
+    padding: 100px 0 0 0;
+}
+.select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D6D6D6;
+    padding-bottom: 10px;
+}
+.down {
+    background: url("../../assets/img/icons/down.svg");
+    width: 12px;
+    height: 8px;
+    cursor: pointer;
+}
+/* Cards */
+.catalogeFlex {
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 0 95px 0;
+}
+.cardName {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #333333;
+    padding: 25px 0 10px 0;
+}
+.brandName {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 15px;
+}
+.cardButton {
+    width: 125px;
+    height: 41px;
+    background-color: #333333;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.showMore {
+    width: 227px;
+    height: 51px;
+    background-color: #333333;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+/* info */
+.infoContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 100px;
+    padding: 150px 0 150px 0;
+}
+.infoText {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333333;
+}
+.infoTextButton {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+    width: 223px;
+    border-bottom: 1px dashed #333333;
+}
+.infoIconBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+    text-align: center;
+}
+.infoIconBlock p{
+    width: 100px;
+    margin: 0 auto;
+}
