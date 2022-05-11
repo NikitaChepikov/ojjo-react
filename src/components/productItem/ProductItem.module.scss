@@ -1,0 +1,13 @@
+@import '../../assets/styles/style.scss';
+@import '../catalog/Catalog.module.scss';
+
+
+.productItem {
+    width: 33%;
+}
+
+.itemImage {
+    width: 280px;
+    height: 220px;
+    object-fit: contain;
+} 

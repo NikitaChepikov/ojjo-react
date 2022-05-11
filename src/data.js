@@ -1,0 +1,20 @@
+export const data = [
+    {'id': 1, 'title': 'СЕРЕБРЯНОЕ КОЛЬЦО', 'article': 'RG31', 'price': 118.07, 'image': 'https://slavia.by/upload/iblock/768/7682327acd70a9c14ccf9ad2e060b282.jpg', 'type': 'ring'},
+    {'id': 2, 'title': 'ЗОЛОТОЕ КОЛЬЦО', 'article': '2А026022Р', 'price': 969.23, 'image': 'https://slavia.by/upload/resize_cache/iblock/41d/700_700_2/41d4efd68bb72642f3b47a0d1e72960c.png', 'type': 'ring'},
+    {'id': 3, 'title': 'СЕРЕБРЯНОЕ КОЛЬЦО С ГОЛУБЫМ ТОПАЗОМ И ФИАНИТОМ', 'article': '01-276300ТБ-00', 'price': 97.88, 'image': 'https://slavia.by/upload/resize_cache/iblock/78b/700_700_2/78b344b81aae537aae4e66a727a82ebd.jpg', 'type': 'ring'},
+    {'id': 4, 'title': 'СЕРЕБРЯНОЕ КОЛЬЦО С ГОЛУБЫМ ТОПАЗОМ', 'article': '01-194200ТБ-00', 'price': 144.61, 'image': 'https://slavia.by/upload/resize_cache/iblock/8ee/700_700_2/8ee89607519e28f639110013ab23a825.jpg', 'type': 'ring'},
+    {'id': 5, 'title': 'СЕРЕБРЯНОЕ КОЛЬЦО С АМЕТИСТОМ И ФИАНИТОМ', 'article': ' 01-205900АМ-00', 'price': 126.43, 'image': 'https://slavia.by/upload/resize_cache/iblock/dde/700_700_2/dde162feba9dd569d5e528382f5423f8.jpg', 'type': 'ring'},
+    {'id': 6, 'title': 'ЗОЛОТОЕ КОЛЬЦО', 'article': '01-107028', 'price': 552.83, 'image': 'https://slavia.by/upload/resize_cache/iblock/07b/700_700_2/07b4a8b9588479968a18b6c4fd24f312.png', 'type': 'ring'},
+    {'id': 7, 'title': 'ЗОЛОТЫЕ СЕРЬГИ С АМЕТИСТОМ', 'article': '321804522А', 'price': 955.90, 'image': 'https://slavia.by/upload/resize_cache/iblock/ff2/700_700_2/ff28c621bbd6181405946c58914ddb1a.png', 'type': 'earrings'},
+    {'id': 8, 'title': 'ЗОЛОТЫЕ СЕРЬГИ С ГОЛУБЫМ ТОПАЗОМ', 'article': '321804685ГТ', 'price': 879.15, 'image': 'https://slavia.by/upload/resize_cache/iblock/4cb/700_700_2/4cbf9ef39e609631711c70d908ac3540.png', 'type': 'earrings'},
+    {'id': 9, 'title': 'СЕРЕБРЯНЫЕ СЕРЬГИ С ТОПАЗОМ', 'article': '02-11250НСЛ-00', 'price': 225.44, 'image': 'https://slavia.by/upload/resize_cache/iblock/15a/700_700_2/15aadfbbd70c01418cb973f79baf9623.JPG', 'type': 'earrings'},
+    {'id': 10, 'title': 'ЗОЛОТЫЕ ДЕТСКИЕ СЕРЬГИ С ФИАНИТОМ', 'article': '01-214870', 'price': 489.60, 'image': 'https://slavia.by/upload/resize_cache/iblock/42a/700_700_2/42ae2904438424984327ca8c284954aa.png', 'type': 'earrings'},
+    {'id': 11, 'title': 'СЕРЕБРЯНЫЕ СЕРЬГИ ЭЛЬФЫ', 'article': 'ER5-N2', 'price': 99.07, 'image': 'https://slavia.by/upload/iblock/2e3/2e318a7c2d81b50775a3ed0abf8fc4e4.jpg', 'type': 'earrings'},
+    {'id': 12, 'title': 'ЗОЛОТЫЕ СЕРЬГИ С ИЗУМРУДОМ И БРИЛЛИАНТОМ', 'article': ' 23100-101', 'price': 2040.43, 'image': 'https://slavia.by/upload/iblock/458/4585e93973bc3e5e931b90b25720e9d2.jpg', 'type': 'earrings'},
+    {'id': 13, 'title': 'СЕРЕБРЯНЫЙ БРАСЛЕТ С ФИАНИТОМ', 'article': '05-049600КЦ-00', 'price': 198.74, 'image': 'https://slavia.by/upload/resize_cache/iblock/af2/700_700_2/af2940c529b55a75f0e1b92f35730e26.jpg', 'type': 'bracelets'},
+    {'id': 14, 'title': 'СЕРЕБРЯНЫЙ БРАСЛЕТ С ГОЛУБЫМ ТОПАЗОМ', 'article': '7464992.5', 'price': 291.85, 'image': 'https://slavia.by/upload/resize_cache/iblock/efc/700_700_2/efc4da0c797919455faa09d76c732dfe.jpg', 'type': 'bracelets'},
+    {'id': 15, 'title': 'СЕРЕБРЯНЫЙ БРАСЛЕТ С ФИАНИТОМ', 'article': 'БР-2295Р200', 'price': 100.40, 'image': 'https://slavia.by/upload/resize_cache/iblock/3a8/700_700_2/3a88e8364d58fc73d877355e597fcba1.jpg', 'type': 'bracelets'},
+    {'id': 16, 'title': 'СЕРЕБРЯНЫЙ БРАСЛЕТ С ТЕКСТИЛЬНЫЙ ШНУРКОМ', 'article': '4-027-91083', 'price': 431.57, 'image': 'https://slavia.by/upload/resize_cache/iblock/df9/700_700_2/df9d143d31b23357ffd8a33536a59d4f.jpg', 'type': 'bracelets'},
+    {'id': 17, 'title': 'СЕРЕБРЯНЫЙ БРАСЛЕТ С ФИАНИТОМ', 'article': 'BR3-N2', 'price': 49.18, 'image': 'https://slavia.by/upload/iblock/df0/df0ccab9448bd09d4fff878d4190fd30.jpg', 'type': 'bracelets'},
+    {'id': 18, 'title': 'СЕРЕБРЯНЫЙ ЖЁСТКИЙ БРАСЛЕТ', 'article': 'BR6-N2', 'price': 371.73, 'image': 'https://slavia.by/upload/iblock/254/254fce70cbc6dfaafc9374a9c11b1add.jpg', 'type': 'bracelets'}
+];

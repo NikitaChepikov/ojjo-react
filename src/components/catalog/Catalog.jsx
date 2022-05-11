@@ -1,15 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
+import { data } from '../../data';
+
+import ProductItem from '../productItem/ProductItem';
 
 import styles from './Catalog.module.scss';
-
-import catalogImage from '../../assets/img/catalogImage.png';
 
 import carIcon from '../../assets/img/icons/carIcon.svg';
 import ListIcon from '../../assets/img/icons/ListIcon.svg';
 import penIcon from '../../assets/img/icons/penIcon.svg';
 import earringsIcon from '../../assets/img/icons/earringsIcon.svg';
 
-const Catalog = () => {
+const Catalog = ({
+    products, setProducts
+}) => {
+
+    const getData = async () => {
+        const products = await fetch(data);
+        setProducts(await products.json());
+    }
+
+    useEffect(() => {
+        getData();
+    }, [])
+
+    console.log(products);
     return (
         <div>
             <section className={styles.selectBlock}>
@@ -47,13 +62,17 @@ const Catalog = () => {
                     <div className={styles.catalogeContainer}>
                         <div className={styles.catalogeFlex}>
                             <div className={styles.catalogeCard}>
-                                <img src={catalogImage} alt="Cataloge" />
-                                <p className={styles.cardName}>Подвеска</p>
-                                <p className={styles.brandName}>Dolce & Gabanna</p>
-                                <button className={styles.cardButton}>175 000 ₽</button>
+                                {
+                                    products.map(el => (
+                                        <ProductItem
+                                            key={el.id}
+                                            img={el.image}
+                                            name={el.title}
+                                            price={el.price}
+                                        />))
+                                }
                             </div>
                         </div>
-                        <hr />
                     </div>
                     <button className={styles.showMore}>покажите еще</button>
                 </div>

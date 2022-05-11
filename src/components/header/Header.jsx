@@ -21,9 +21,9 @@ const Header = () => {
                             <NavLink to='/contacts'>
                                 Контакты
                             </NavLink>
-                        <a href="#">Вакансии</a>
+                        {/* <a href="#">Вакансии</a> */}
                     </div>
-                    <a href="#"><div className={styles.logo}></div></a>
+                    <NavLink  to='/dashboard'><div className={styles.logo}></div></NavLink>
                     <div className={styles.signupBlock}>
                         <IconContext.Provider value={{ size: '14px' }}>
                             <div>
